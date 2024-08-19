@@ -2,7 +2,7 @@ let canvas = document.getElementsByTagName("canvas")[0]
 let context = canvas.getContext("2d")
 let frames = {
     currentFrame: 0,
-    maxFrame: 1265
+    maxFrame: 1000
 }
 let images = []
 let imagesLoaded = 0 
